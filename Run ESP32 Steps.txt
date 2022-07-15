@@ -1,0 +1,23 @@
+Steps to run ESP32
+1- Install Arduino IDE
+2- Open Arduino IDE
+3- Go to File > Prefences
+4- Enter the following into the “Additional Board Manager URLs” field:
+	https://dl.espressif.com/dl/package_esp32_index.json
+	Then click (OK)
+5- Go to Tools > Board > Boards Manager
+6- Search for ESP32 and press install for the “ESP32 by Espressif Systems“
+7- Afterthat it will be installed after a few seconds.
+8- Plug the ESP32 board to your computer
+9- Select your Board in Tools > Board menu(Your_Board_Name)
+10- Select the Port. Go to tools > Port > COM3
+11- To turn the light ON. Go to File > Examples > Basics > Blink
+12- A new sketch opens in your Arduino IDE
+13- Press the Upload button in the Arduino IDE.
+
+
+
+
+
+
+
